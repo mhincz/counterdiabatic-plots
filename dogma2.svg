@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="243.79958mm"
+   width="223.29143mm"
    height="126.7764mm"
-   viewBox="0 0 243.79957 126.7764"
+   viewBox="0 0 223.29142 126.7764"
    version="1.1"
    id="svg18783"
    inkscape:version="0.92.4 5da689c313, 2019-01-14"
@@ -100,7 +100,7 @@
        x2="151.98891"
        y2="119.49477"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0,4.9444863)" />
+       gradientTransform="translate(2e-6,4.9444863)" />
     <marker
        inkscape:stockid="Arrow2Send"
        orient="auto"
@@ -155,8 +155,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="465.86233"
-     inkscape:cy="184.01547"
+     inkscape:cx="379.95253"
+     inkscape:cy="184.01548"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -185,7 +185,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-8.1188366,-43.709497)">
+     transform="translate(-28.62698,-43.709497)">
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
@@ -646,7 +646,7 @@
          id="tspan24303">protein</tspan></text>
     <path
        style="fill:url(#linearGradient24313);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 151.69162,78.32432 c -0.81797,13.813587 -129.775518,46.1532 -129.775518,46.1532 H 200.05124 C 168.40685,102.75168 153.39505,86.773179 151.69162,78.32432"
+       d="m 151.69162,78.32432 c -0.81797,13.813587 -120.326113,46.1532 -120.326113,46.1532 H 249.56612 c -42.03873,-13.59935 -98.06095,-38.83827 -97.8745,-46.1532"
        id="path24305"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
@@ -654,10 +654,10 @@
        sodipodi:nodetypes="ccccccccccsc"
        inkscape:connector-curvature="0"
        id="path10617"
-       d="m 41.243923,142.41074 c 11.750718,7.45687 16.884908,6.27441 27.786918,6.62926 3.89973,-0.0398 8.26206,-3.71282 6.9403,-7.88484 -1.32515,-4.05377 -7.00987,-5.44008 -10.27121,-2.86692 -4.80701,2.23779 -10.73153,4.1863 -15.698958,1.27876 -3.2843,-1.6828 -5.3387,-5.65861 -9.320313,-5.91233 -4.549179,0.61246 -4.757878,5.97397 -6.481638,9.20289 -2.029111,3.96408 -7.699049,4.12512 -11.65865,3.02325 -4.368081,-1.88389 -2.334422,-5.38647 2.4076,-7.93746 4.479149,-2.27699 -0.0802,-7.35205 -4.82954,-4.65 -5.985381,3.31926 -14.4135253,9.62754 -10.5048547,15.46561 1.9433837,2.90267 17.6865157,1.08417 25.9833967,5.14545"
+       d="m 69.289774,142.41074 c 11.750718,7.45687 16.884908,6.27441 27.786918,6.62926 3.899728,-0.0398 8.262088,-3.71282 6.940318,-7.88484 -1.32515,-4.05377 -7.009888,-5.44008 -10.271228,-2.86692 -4.80701,2.23779 -10.73153,4.1863 -15.698958,1.27876 -3.2843,-1.6828 -5.3387,-5.65861 -9.320313,-5.91233 -4.549179,0.61246 -4.757878,5.97397 -6.481638,9.20289 -2.029111,3.96408 -7.699049,4.12512 -11.65865,3.02325 -4.368081,-1.88389 -2.334422,-5.38647 2.4076,-7.93746 4.479149,-2.27699 -0.0802,-7.35205 -4.82954,-4.65 -5.985381,3.31926 -14.413528,9.62754 -10.504855,15.46561 1.943384,2.90267 17.686516,1.08417 25.983397,5.14545"
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <g
-       transform="translate(-11.944378,102.34297)"
+       transform="translate(16.101461,102.34297)"
        style="stroke-linecap:butt;stroke-linejoin:round"
        id="g24349">
       <path
@@ -768,7 +768,7 @@
     </g>
     <g
        id="g24142-0"
-       transform="translate(19.208996,70.868385)">
+       transform="translate(47.254847,70.868385)">
       <path
          inkscape:connector-curvature="0"
          id="path4698-6"
@@ -920,67 +920,67 @@
     </g>
     <path
        style="fill:#008000;stroke:#008000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
-       d="M 81.623955,141.93526 H 112.05103"
+       d="m 109.66986,141.93526 h 30.42718"
        id="path24764"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#008000;stroke:#008000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send-7)"
-       d="M 113.49695,146.85857 H 83.069877"
+       d="M 141.54296,146.85857 H 111.11579"
        id="path24764-6"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#008000;stroke:#008000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send-4)"
-       d="M 148.78127,141.90095 H 179.2084"
+       d="m 176.82728,141.90095 h 30.42713"
        id="path24764-1"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#008000;stroke:#008000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send-7-8)"
-       d="M 180.65432,146.82426 H 150.2272"
+       d="M 208.70033,146.82426 H 178.27321"
        id="path24764-6-4"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.05522442px;line-height:1.25;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12638059"
-       x="43.026474"
+       x="71.072334"
        y="170.4404"
        id="text24218-4-0-6-9"><tspan
          sodipodi:role="line"
-         x="43.026474"
+         x="71.072334"
          y="170.4404"
          style="font-weight:bold;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.12638059"
          id="tspan24303-0">unfolded chain</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.05522442px;line-height:1.25;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12638059"
-       x="130.32582"
+       x="158.37128"
        y="170.4404"
        id="text24218-4-0-6-9-6"><tspan
          sodipodi:role="line"
-         x="130.32582"
+         x="158.37128"
          y="170.4404"
          style="font-weight:bold;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.12638059"
          id="tspan26874">intermediate state</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.05522442px;line-height:1.25;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12638059"
-       x="199.33084"
+       x="227.3763"
        y="170.4404"
        id="text24218-4-0-6-9-6-9"><tspan
          sodipodi:role="line"
-         x="199.33084"
+         x="227.3763"
          y="170.4404"
          style="font-weight:bold;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.12638059"
          id="tspan26874-2">native state</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.05522442px;line-height:1.25;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.12638059"
-       x="122.67926"
-       y="106.60419"
+       x="134.32083"
+       y="106.07502"
        id="text24218-6"><tspan
          sodipodi:role="line"
          id="tspan24216-6"
-         x="122.67926"
-         y="106.60419"
+         x="134.32083"
+         y="106.07502"
          style="font-weight:bold;fill:#ffffff;stroke-width:0.12638059">protein folding</tspan></text>
     <path
        style="fill:#ff6600;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"

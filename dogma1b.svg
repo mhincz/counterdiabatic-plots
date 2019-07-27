@@ -15,7 +15,7 @@
    version="1.1"
    id="svg18783"
    inkscape:version="0.92.4 5da689c313, 2019-01-14"
-   sodipodi:docname="dogma1.svg">
+   sodipodi:docname="dogma1b.svg">
   <defs
      id="defs18777">
     <marker
@@ -692,5 +692,63 @@
        id="path10617-0-4-7-2"
        d="m 249.90226,71.094858 c -1.27692,-3.9143 0.50897,-2.873893 -0.43781,-6.043172"
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="53.006443"
+       y="116.81328"
+       id="text28972"><tspan
+         sodipodi:role="line"
+         id="tspan28970"
+         x="53.006443"
+         y="126.43353"
+         style="stroke-width:0.26458332" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12638059"
+       x="47.053055"
+       y="113.5341"
+       id="text24218-2"><tspan
+         sodipodi:role="line"
+         id="tspan24216-6"
+         x="47.053055"
+         y="113.5341"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';fill:#000000;stroke-width:0.12638059">All these processes involve nonequilibrium reaction networks driven</tspan><tspan
+         sodipodi:role="line"
+         x="47.053055"
+         y="121.4716"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';fill:#000000;stroke-width:0.12638059"
+         id="tspan28992">by ATP hydrolysis.</tspan><tspan
+         sodipodi:role="line"
+         x="47.053055"
+         y="129.4091"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';fill:#000000;stroke-width:0.12638059"
+         id="tspan28994" /><tspan
+         sodipodi:role="line"
+         x="47.053055"
+         y="137.3466"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';fill:#000000;stroke-width:0.12638059"
+         id="tspan28996">The resulting costs of expressing even a single extra protein can be</tspan><tspan
+         sodipodi:role="line"
+         x="47.053055"
+         y="145.2841"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';fill:#000000;stroke-width:0.12638059"
+         id="tspan28998">evolutionarily significant for single-celled organisms.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.12638059"
+       x="121.22819"
+       y="155.28839"
+       id="text24218-2-1"><tspan
+         sodipodi:role="line"
+         x="121.22819"
+         y="155.28839"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';fill:#008000;stroke-width:0.12638059"
+         id="tspan28998-9">Ilker &amp; Hinczewski, Phys. Rev. Lett. (2019)</tspan><tspan
+         sodipodi:role="line"
+         x="121.22819"
+         y="163.22589"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';fill:#008000;stroke-width:0.12638059"
+         id="tspan29044">Lynch &amp; Marinov, Proc. Natl. Acad. Sci. (2015)</tspan></text>
   </g>
 </svg>
