@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Arch Linux)  (format=lualatex 2019.7.26)  26 JUL 2019 23:17
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Arch Linux)  (format=lualatex 2019.7.26)  28 JUL 2019 00:34
  restricted system commands enabled.
 **cd_proteins
 (./cd_proteins.tex
@@ -1467,11 +1467,11 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 [9
 
 ]
-<ecoli_network.png, id=201, 1203.49625pt x 1168.365pt>
-File: ecoli_network.png Graphic file (type png)
-<use ecoli_network.png>
-Package luatex.def Info: ecoli_network.png  used on input line 133.
-(luatex.def)             Requested size: 218.23065pt x 211.84764pt.
+<misfolding1.pdf, id=201, 1079.20058pt x 655.25786pt>
+File: misfolding1.pdf Graphic file (type pdf)
+<use misfolding1.pdf>
+Package luatex.def Info: misfolding1.pdf  used on input line 132.
+(luatex.def)             Requested size: 335.74263pt x 203.84772pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1483,12 +1483,12 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [10
 
-<./ecoli_network.png>]
-<ecoli_flux1.png, id=209, 337.9827pt x 131.7723pt>
-File: ecoli_flux1.png Graphic file (type png)
-<use ecoli_flux1.png>
-Package luatex.def Info: ecoli_flux1.png  used on input line 148.
-(luatex.def)             Requested size: 335.74263pt x 130.90334pt.
+<./misfolding1.pdf>]
+<misfolding2.pdf, id=219, 1079.20058pt x 655.25786pt>
+File: misfolding2.pdf Graphic file (type pdf)
+<use misfolding2.pdf>
+Package luatex.def Info: misfolding2.pdf  used on input line 132.
+(luatex.def)             Requested size: 335.74263pt x 203.84772pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1500,12 +1500,12 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [11
 
-<./ecoli_flux1.png>]
-<ecoli_flux2.png, id=217, 338.9463pt x 132.0132pt>
-File: ecoli_flux2.png Graphic file (type png)
-<use ecoli_flux2.png>
-Package luatex.def Info: ecoli_flux2.png  used on input line 148.
-(luatex.def)             Requested size: 335.74263pt x 130.76799pt.
+<./misfolding2.pdf>]
+<misfolding3.pdf, id=246, 1079.20058pt x 655.25786pt>
+File: misfolding3.pdf Graphic file (type pdf)
+<use misfolding3.pdf>
+Package luatex.def Info: misfolding3.pdf  used on input line 132.
+(luatex.def)             Requested size: 335.74263pt x 203.84772pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1517,12 +1517,12 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [12
 
-<./ecoli_flux2.png>]
-<ecoli_flux3.png, id=224, 338.9463pt x 132.0132pt>
-File: ecoli_flux3.png Graphic file (type png)
-<use ecoli_flux3.png>
-Package luatex.def Info: ecoli_flux3.png  used on input line 148.
-(luatex.def)             Requested size: 335.74263pt x 130.76799pt.
+<./misfolding3.pdf>]
+<ecoli_network.png, id=285, 1203.49625pt x 1168.365pt>
+File: ecoli_network.png Graphic file (type png)
+<use ecoli_network.png>
+Package luatex.def Info: ecoli_network.png  used on input line 140.
+(luatex.def)             Requested size: 218.23065pt x 211.84764pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1534,12 +1534,12 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [13
 
-<./ecoli_flux3.png>]
-<yeast_response.pdf, id=231, 466.32341pt x 181.88205pt>
-File: yeast_response.pdf Graphic file (type pdf)
-<use yeast_response.pdf>
-Package luatex.def Info: yeast_response.pdf  used on input line 157.
-(luatex.def)             Requested size: 335.74263pt x 130.95218pt.
+<./ecoli_network.png>]
+<ecoli_flux1.png, id=293, 337.9827pt x 131.7723pt>
+File: ecoli_flux1.png Graphic file (type png)
+<use ecoli_flux1.png>
+Package luatex.def Info: ecoli_flux1.png  used on input line 155.
+(luatex.def)             Requested size: 335.74263pt x 130.90334pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1551,6 +1551,57 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [14
 
+<./ecoli_flux1.png>]
+<ecoli_flux2.png, id=300, 338.9463pt x 132.0132pt>
+File: ecoli_flux2.png Graphic file (type png)
+<use ecoli_flux2.png>
+Package luatex.def Info: ecoli_flux2.png  used on input line 155.
+(luatex.def)             Requested size: 335.74263pt x 130.76799pt.
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[15
+
+<./ecoli_flux2.png>]
+<ecoli_flux3.png, id=307, 338.9463pt x 132.0132pt>
+File: ecoli_flux3.png Graphic file (type png)
+<use ecoli_flux3.png>
+Package luatex.def Info: ecoli_flux3.png  used on input line 155.
+(luatex.def)             Requested size: 335.74263pt x 130.76799pt.
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[16
+
+<./ecoli_flux3.png>]
+<yeast_response.pdf, id=314, 466.32341pt x 181.88205pt>
+File: yeast_response.pdf Graphic file (type pdf)
+<use yeast_response.pdf>
+Package luatex.def Info: yeast_response.pdf  used on input line 164.
+(luatex.def)             Requested size: 335.74263pt x 130.95218pt.
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[17
+
 <./yeast_response.pdf>]
 \tf@nav=\write6
 
@@ -1561,33 +1612,33 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 \tf@snm=\write8
 
 \openout8 = cd_proteins.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
  (./cd_proteins.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
 Package rerunfilecheck Info: File `cd_proteins.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 32333 strings out of 494300
+ 32389 strings out of 494300
  100000,794899 words of node,token memory allocated
  1701 words of node memory still in use:
    26 hlist, 9 vlist, 4 rule, 3 disc, 3 local_par, 47 glue, 9 kern, 16 penalty, 
 36 glyph, 47 attribute, 61 glue_spec, 47 attribute_list, 3 write, 12 pdf_colorst
 ack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
    avail lists: 1:3,2:244,3:181,4:56,5:151,6:15,7:1132,8:3,9:102,10:11,11:108
- 35183 multiletter control sequences out of 65536+600000
- 70 fonts using 13115911 bytes
+ 35197 multiletter control sequences out of 65536+600000
+ 70 fonts using 13119847 bytes
  56i,11n,116p,773b,525s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/michael/.local/share/fonts/texgyreheros-italic.otf></home/michael/.local/
 share/fonts/texgyreheros-regular.otf></usr/share/fonts/ttf-linux-libertine/LinBi
 olinum_Rah.ttf>
-Output written on cd_proteins.pdf (14 pages, 2098131 bytes).
+Output written on cd_proteins.pdf (17 pages, 3194758 bytes).
 
-PDF statistics: 282 PDF objects out of 1000 (max. 8388607)
- 181 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 131072)
+PDF statistics: 368 PDF objects out of 1000 (max. 8388607)
+ 236 compressed objects within 3 object streams
+ 35 named destinations out of 1000 (max. 131072)
  21 words of extra memory for PDF output out of 10000 (max. 100000000)
 
