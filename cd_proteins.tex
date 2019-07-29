@@ -155,12 +155,33 @@
 \end{frame}
 
 
-\begin{frame}{Example: heat shock response in yeast}
+\begin{frame}{Heat shock}
 
+  {What happens when the cell enters a higher temperature environment?\\[1em]}
+
+  \pause
+
+{\small  Functional classes of upregulated genes in yeast after a heat shock from 25$^\circ$C to 35$^\circ$C over 10 min (out of total of 91 genes upregulated by more than 2.8x):}
   \vspace{1em}
   \begin{figure}
     \includegraphics[width=\textwidth]{yeast_response.pdf}
   \end{figure}
+
+  \pause
+
+\alert{\small Can we understand this upregulation of chaperones using ideas from thermodynamic control?}
+
+\end{frame}
+
+\begin{frame}{Markov model for chaperone-protein interaction}
+
+  \begin{columns}
+    \column{0.55\textwidth}
+    \includegraphics[width=\textwidth]{markov0.pdf}
+    \column{0.42\textwidth} Using separation of timescales we can
+    construct a simplified {\color{blue} Markov model} for a protein that tends to
+    misfold under heat shock, focusing on four key states.
+    \end{columns}
 \end{frame}
 
 \end{document}

@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Arch Linux)  (format=lualatex 2019.7.26)  28 JUL 2019 00:34
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Arch Linux)  (format=lualatex 2019.7.26)  28 JUL 2019 19:54
  restricted system commands enabled.
 **cd_proteins
 (./cd_proteins.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.038 seconds
+luaotfload | main : initialization completed in 0.039 seconds
 (/usr/share/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
 (/usr/share/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
@@ -1586,11 +1586,23 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 [16
 
 <./ecoli_flux3.png>]
-<yeast_response.pdf, id=314, 466.32341pt x 181.88205pt>
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/n' will be
+(Font)              scaled to size 9.36905pt on input line 174.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/n' will be
+(Font)              scaled to size 6.55833pt on input line 174.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/n' will be
+(Font)              scaled to size 4.68452pt on input line 174.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/it' will be
+(Font)              scaled to size 9.36905pt on input line 174.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/it' will be
+(Font)              scaled to size 6.55833pt on input line 174.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/it' will be
+(Font)              scaled to size 4.68452pt on input line 174.
+<yeast_response.pdf, id=314, 466.32341pt x 168.1346pt>
 File: yeast_response.pdf Graphic file (type pdf)
 <use yeast_response.pdf>
-Package luatex.def Info: yeast_response.pdf  used on input line 164.
-(luatex.def)             Requested size: 335.74263pt x 130.95218pt.
+Package luatex.def Info: yeast_response.pdf  used on input line 174.
+(luatex.def)             Requested size: 335.74263pt x 121.05424pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1603,6 +1615,55 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 [17
 
 <./yeast_response.pdf>]
+File: yeast_response.pdf Graphic file (type pdf)
+<use yeast_response.pdf>
+Package luatex.def Info: yeast_response.pdf  used on input line 174.
+(luatex.def)             Requested size: 335.74263pt x 121.05424pt.
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[18
+
+]
+File: yeast_response.pdf Graphic file (type pdf)
+<use yeast_response.pdf>
+Package luatex.def Info: yeast_response.pdf  used on input line 174.
+(luatex.def)             Requested size: 335.74263pt x 121.05424pt.
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[19
+
+]
+<markov0.pdf, id=354, 579.07137pt x 526.30777pt>
+File: markov0.pdf Graphic file (type pdf)
+<use markov0.pdf>
+Package luatex.def Info: markov0.pdf  used on input line 185.
+(luatex.def)             Requested size: 184.65947pt x 167.83566pt.
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[20
+
+<./markov0.pdf>]
 \tf@nav=\write6
 
 \openout6 = cd_proteins.nav
@@ -1612,33 +1673,34 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 \tf@snm=\write8
 
 \openout8 = cd_proteins.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
  (./cd_proteins.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
 Package rerunfilecheck Info: File `cd_proteins.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 32389 strings out of 494300
+ 32508 strings out of 494300
  100000,794899 words of node,token memory allocated
- 1701 words of node memory still in use:
-   26 hlist, 9 vlist, 4 rule, 3 disc, 3 local_par, 47 glue, 9 kern, 16 penalty, 
-36 glyph, 47 attribute, 61 glue_spec, 47 attribute_list, 3 write, 12 pdf_colorst
-ack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
-   avail lists: 1:3,2:244,3:181,4:56,5:151,6:15,7:1132,8:3,9:102,10:11,11:108
- 35197 multiletter control sequences out of 65536+600000
- 70 fonts using 13119847 bytes
+ 3520 words of node memory still in use:
+   35 hlist, 11 vlist, 4 rule, 16 disc, 4 local_par, 4 math, 73 glue, 32 kern, 1
+5 penalty, 191 glyph, 70 attribute, 61 glue_spec, 70 attribute_list, 3 write, 24
+ pdf_literal, 12 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore node
+s
+   avail lists: 1:3,2:198,3:158,4:56,5:128,6:14,7:962,8:3,9:91,10:19,11:95
+ 35235 multiletter control sequences out of 65536+600000
+ 97 fonts using 15832991 bytes
  56i,11n,116p,773b,525s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/michael/.local/share/fonts/texgyreheros-italic.otf></home/michael/.local/
 share/fonts/texgyreheros-regular.otf></usr/share/fonts/ttf-linux-libertine/LinBi
-olinum_Rah.ttf>
-Output written on cd_proteins.pdf (17 pages, 3194758 bytes).
+olinum_Rah.ttf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on cd_proteins.pdf (20 pages, 3736330 bytes).
 
-PDF statistics: 368 PDF objects out of 1000 (max. 8388607)
- 236 compressed objects within 3 object streams
- 35 named destinations out of 1000 (max. 131072)
+PDF statistics: 408 PDF objects out of 1000 (max. 8388607)
+ 263 compressed objects within 3 object streams
+ 41 named destinations out of 1000 (max. 131072)
  21 words of extra memory for PDF output out of 10000 (max. 100000000)
 
