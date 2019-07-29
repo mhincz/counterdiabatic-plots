@@ -5,6 +5,7 @@
 \usepackage{multimedia}
 \usepackage{fontspec}
 \usepackage{ulem}
+\usepackage{amsmath,amssymb,bm}
 
 \RequirePackage{luatex85}
 
@@ -175,14 +176,122 @@
 
 \begin{frame}{Markov model for chaperone-protein interaction}
 
+  \vspace{-1em}
   \begin{columns}
     \column{0.55\textwidth}
-    \includegraphics[width=\textwidth]{markov0.pdf}
+    \includegraphics<1>[width=\textwidth]{markov0.pdf}\includegraphics<2>[width=\textwidth]{markov0b.pdf}
     \column{0.42\textwidth} Using separation of timescales we can
     construct a simplified {\color{blue} Markov model} for a protein that tends to
     misfold under heat shock, focusing on four key states.
     \end{columns}
 \end{frame}
+
+\begin{frame}{Markov model for chaperone-protein interaction}
+
+  \vspace{-1em}
+  \begin{columns}[T]
+    \column{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.95\textwidth]{markov1.pdf}\\[0.5em]
+    {\small{\color{blue} \underline{Typical parameter values:}\\ $k_m = 10$ s$^{-1}$, $\epsilon = 10$ $k_B T$}}
+    \column{0.47\textwidth} \vspace{0.5in} {\small We assume the system is undergoing heat
+    shock, where conditions favor the misfolded over the intermediate
+    state:
+    \[
+    \frac{k_m}{r_m} = e^{\beta \epsilon} \gg 1
+    \]
+    where $\epsilon >0$ is the free energy difference between the I
+    and M states.\\[1em]}
+
+    
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Markov model for chaperone-protein interaction}
+
+  \begin{columns}[T]
+    \column{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.95\textwidth]{markov2.pdf}\\[0.5em]
+        {\small{\color{blue} \underline{Typical parameter values:}\\ $\gamma_c = 10^6$ M$^{-1}$s$^{-1}$, $\gamma_u =  10^4$ M$^{-1}$s$^{-1}$, $r_c = 5 \times 10^{-3}$ s$^{-1}$, $k_u = 0.2$ s$^{-1}$}}
+
+    \column{0.47\textwidth} \vspace{0.5in} {\small Binding rates depend on chaperone
+    concentration $C$:
+    \[
+    k_c = \gamma_c C, \qquad r_u = \gamma_u C
+    \]
+    where usually $\gamma_c \gg \gamma_u$ (chaperone favors binding
+    to misfolded states).\\[1em]}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Markov model for chaperone-protein interaction}
+
+  \vspace{0.5em}
+  \begin{columns}
+    \column{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.95\textwidth]{markov3.pdf}\\[0.5em]
+    {\small{\color{blue} \underline{Typical parameter values:}\\
+$k_\text{f,cat} = 10^{-2}$ s$^{-1}$, $K_\text{f,M} = 400$ $\mu$M,\\ $A = 1$ mM, $B=0.1$ mM, $\Delta \mu = 22$ $k_BT$}}
+
+    \column{0.47\textwidth} {\small Chaperone-catalyzed reactions
+      follow Michaelis-Menten kinetics that depend on \alert{ATP concentration $A$} and
+      \alert{ADP concentration $B$}:
+    \[
+k_a = \frac{k_\text{f,cat} A}{K_\text{f,M} + A}, \quad r_a = \frac{k_\text{r,cat} B}{K_\text{r,M} + B}
+\] \\
+
+\pause
+{\color{green!50!black} Local detailed balance} leads to two constraints: the ``Haldane relation'',
+\[
+\frac{k_\text{f,cat} K_\text{r,M} \gamma_c k_u}{k_\text{r,cat} K_\text{f,M} \gamma_u r_c} = e^{-\beta \epsilon}
+\]
+and
+\[
+\frac{k_m \gamma_c k_a k_u}{r_m r_c r_a \gamma_u} = e^{\beta \Delta \mu}
+\]
+where $\Delta \mu= \Delta \mu_0 + k_BT {\sf ln} (A/B)$ is the ATP hydrolysis chemical potential.}
+
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Markov model: dynamics}
+
+  \vspace{0.5em}
+  \begin{columns}[T]
+    \column{0.42\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{markov4.pdf}
+    \column{0.55\textwidth}
+    The state probabilities
+    \[
+    \bm{p}(t) = (p_M(t),p_{MC}(t),p_{IC}(t),p_I(t))
+    \]
+    obey the master equation
+    \[
+    \dot{\bm{p}}(t) = \Omega \bm{p}(t)
+    \]
+    with transition matrix
+    \[
+    \begin{split}
+&\Omega =\\
+&\left(\begin{smallmatrix} 
+-k_c(C) -r_m & r_c & 0 & k_m \\ 
+k_c(C) & -r_c -k_a(A) & r_a(B) & 0\\
+0 & k_a(A) & -r_a(B) - k_u & r_u(C)\\
+r_m & 0 & k_u & -k_m - r_u(C)
+      \end{smallmatrix}\right)
+      \end{split}
+    \]
+    \pause
+
+For given $A$, $B$, $C$, the {\color{blue} stationary distribution} $\bm{\rho}$ satisfies: $\Omega \bm{\rho} = 0$.
+
+    \end{columns}
+\end{frame}
+
+
 
 \end{document}
 

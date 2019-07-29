@@ -89,6 +89,21 @@
          transform="matrix(-0.3,0,0,-0.3,0.69,0)"
          inkscape:connector-curvature="0" />
     </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker25415"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path25413" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -120,7 +135,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -844,6 +859,36 @@
            d="m 116.8795,42.052766 h -0.46336 l -0.33979,1.614018 c -0.0541,0.231677 -0.31663,0.50969 -0.79543,0.50969 -0.27801,0 -0.39385,-0.04634 -0.39385,-0.20851 0,-0.03089 0.0155,-0.100393 0.0155,-0.100393 l 0.38613,-1.814805 h -0.47108 l -0.4093,2.038759 c 0,0.316626 0.21623,0.401574 0.4788,0.401574 0.27802,0 0.73365,-0.0695 1.08116,-0.293458 l -0.0463,0.2394 h 0.45563 z"
            id="path11148" />
       </g>
+      <path
+         style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000001, 1.00000001;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker25415)"
+         d="m 91.066541,95.462354 c -6.61737,-4.01896 -7.22224,-5.73737 -7.44206,-9.84536 -0.25766,-4.815292 -0.27442,-7.611333 7.44206,-12.405493"
+         id="path25255"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cac" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.06627035px;line-height:1.25;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.15165672"
+         x="99.024422"
+         y="97.476234"
+         id="text24218-4-0-6-9-6-2-2-1-9"><tspan
+           sodipodi:role="line"
+           x="99.024422"
+           y="97.476234"
+           style="font-weight:normal;text-align:center;text-anchor:middle;fill:#ff0000;stroke:none;stroke-width:0.15165672"
+           id="tspan26874-6-6-0-7">ATP</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.06627083px;line-height:1.25;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.15165672"
+         x="105.57114"
+         y="74.794098"
+         id="text24218-4-0-6-9-6-2-2-1-9-7"><tspan
+           sodipodi:role="line"
+           x="105.57114"
+           y="74.794098"
+           style="font-weight:normal;text-align:center;text-anchor:middle;fill:#ff0000;stroke:none;stroke-width:0.15165672"
+           id="tspan26874-6-6-0-7-6">ADP + P<tspan
+   style="font-size:3.9430759px;baseline-shift:sub;fill:#ff0000;stroke-width:0.15165672"
+   id="tspan25825">i</tspan></tspan></text>
     </g>
   </g>
 </svg>
