@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Arch Linux)  (format=lualatex 2019.7.26)  31 JUL 2019 00:06
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Arch Linux)  (format=lualatex 2019.7.26)  31 JUL 2019 01:13
  restricted system commands enabled.
 **cd_proteins
 (./cd_proteins.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.038 seconds
+luaotfload | main : initialization completed in 0.039 seconds
 (/usr/share/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
 (/usr/share/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
@@ -1994,6 +1994,119 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 [38
 
 ]
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/bx/n' will be
+(Font)              scaled to size 10.2591pt on input line 385.
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[39
+
+]
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[40
+
+]
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[41
+
+]
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[42
+
+]
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[43
+
+]
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[44
+
+]
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[45
+
+]
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[46
+
+]
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[47
+
+]
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[48
+
+]
 \tf@nav=\write6
 
 \openout6 = cd_proteins.nav
@@ -2003,43 +2116,46 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 \tf@snm=\write8
 
 \openout8 = cd_proteins.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 417.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 417.
  (./cd_proteins.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 349.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 349.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 417.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 417.
 Package rerunfilecheck Info: File `cd_proteins.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 32960 strings out of 494300
+ 33068 strings out of 494300
  100000,953878 words of node,token memory allocated
- 7012 words of node memory still in use:
-   66 hlist, 15 vlist, 3 rule, 41 disc, 7 local_par, 22 math, 150 glue, 63 kern,
- 32 penalty, 428 glyph, 147 attribute, 61 glue_spec, 147 attribute_list, 3 write
-, 24 pdf_literal, 28 pdf_colorstack nodes
-   avail lists: 1:3,2:431,3:153,4:64,5:134,6:26,7:1389,8:36,9:350,10:19,11:82
- 35408 multiletter control sequences out of 65536+600000
- 121 fonts using 18172511 bytes
+ 6928 words of node memory still in use:
+   64 hlist, 16 vlist, 3 rule, 41 disc, 8 local_par, 22 math, 153 glue, 64 kern,
+ 30 penalty, 401 glyph, 163 attribute, 61 glue_spec, 163 attribute_list, 3 write
+, 32 pdf_literal, 28 pdf_colorstack nodes
+   avail lists: 1:3,2:499,3:150,4:84,5:224,6:25,7:1911,8:36,9:499,10:19,11:82
+ 35413 multiletter control sequences out of 65536+600000
+ 122 fonts using 18385167 bytes
  56i,24n,116p,773b,596s stack positions out of 5000i,500n,10000p,200000b,100000s
-</home/michael/.local/share/fonts/texgyreheros-bolditalic.otf></home/michael/.lo
-cal/share/fonts/texgyreheros-italic.otf></home/michael/.local/share/fonts/texgyr
-eheros-regular.otf></usr/share/fonts/ttf-linux-libertine/LinBiolinum_Rah.ttf></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb
-></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texm
-f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on cd_proteins.pdf (38 pages, 6605126 bytes).
+</home/michael/.local/share/fonts/texgyreheros-bold.otf></home/michael/.local/sh
+are/fonts/texgyreheros-bolditalic.otf></home/michael/.local/share/fonts/texgyreh
+eros-italic.otf></home/michael/.local/share/fonts/texgyreheros-regular.otf></usr
+/share/fonts/ttf-linux-libertine/LinBiolinum_Rah.ttf></usr/share/texmf-dist/font
+s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cmextra/cmex8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
+fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on cd_proteins.pdf (48 pages, 6652219 bytes).
 
-PDF statistics: 827 PDF objects out of 1000 (max. 8388607)
- 545 compressed objects within 6 object streams
- 77 named destinations out of 1000 (max. 131072)
+PDF statistics: 898 PDF objects out of 1000 (max. 8388607)
+ 600 compressed objects within 6 object streams
+ 97 named destinations out of 1000 (max. 131072)
  21 words of extra memory for PDF output out of 10000 (max. 100000000)
 

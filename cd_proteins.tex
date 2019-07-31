@@ -345,5 +345,74 @@ For given $A$, $B$, $C$, the {\color{blue} stationary distribution} $\bm{\rho}$ 
   
 \end{frame}
 
+\begin{frame}{Counterdiabatic protocols for Markov models}
+
+  \vspace{0.25em}
+         {\color{red} Solution:}
+         \vspace{0.25em}
+  \begin{itemize}
+  \item 
+    $\tilde{\Omega}_{ij}(\lambda_t,\dot\lambda_t) = \hat{\Omega}_{ij}(\lambda_t,\dot\lambda_t) \Gamma_{j}(\lambda_t,\dot\lambda_t)$ where one constructs the matrix $\hat{\Omega}_{ij}$ and vector $\Gamma_i$ as follows.
+
+    \vspace{0.25em}
+    \pause
+
+  \item $\hat{\Omega}_{ij}(\lambda_t,\dot\lambda_t) = \tilde{M}_{ij}(\lambda_t,\dot\lambda_t)/\rho_j(\lambda_t)$ where $\tilde{M}$ is {\bf\color{blue} any} matrix with positive off-diagonal elements where each row and each column sum to zero.  {\color{blue}Each choice of $\tilde{M}$ corresponds to a distinct CD protocol.}
+
+    \pause
+    \vspace{0.25em}
+  \item $\Gamma_i(\lambda_t,\dot\lambda_t) = \frac{\left(\hat{\Omega}^\times(\lambda_t,\dot\lambda_t) \dot{\bm{\rho}}(\lambda_t)\right)_i}{\rho_i(\lambda_t)} + \Gamma_0(\lambda_t,\dot\lambda_t)$
+
+   \pause
+    \vspace{0.25em}
+  \item $\hat{\Omega}^\times$ is the Drazin pseudoinverse of $\hat{\Omega}$, which satisfies:
+    \[
+    \hat{\Omega}^\times(\lambda_t,\dot\lambda_t) \hat{\Omega}(\lambda_t,\dot\lambda_t) = I - \bm{\rho}(\lambda_t) \bm{e}^T
+    \]
+    where $I$ is the identity matrix and $e_i = 1$ for all $i$.
+
+    \pause
+    \vspace{0.25em}
+
+  \item $\Gamma_0$ is uniquely specified by enforcing the condition:
+    \[
+    \sum_{i=1}^N \frac{\rho_i(\lambda_t)}{\Gamma_i(\lambda_t,\dot\lambda_t)}  = 1
+    \]
+    
+
+  \end{itemize}
+  
+\end{frame}
+
+\begin{frame}{Constraints on possible CD protocols}
+
+  Arbitrary $\tilde{M}$ \quad \Rightarrow \quad infinitely many CD protocols!
+
+  \vspace{1em}
+  \pause
+
+  But for a specific protocol, almost none of them may be {\color{blue} physically realizable}.
+
+  \pause
+
+  \vspace{1em} {\color{red} Typical constraints:}
+
+  \begin{itemize}
+  \item Continuity: $\tilde{M}(\lambda_t,\dot\lambda_t)$ should be
+    continuous in $t$.
+    \vspace{0.25em}
+    \pause
+
+  \item Boundary conditions:  in order for $\tilde{\Omega}(\lambda_t,\dot\lambda_t) = \Omega(\lambda_t)$ at $t=0$ and $\tau$, we must have $\tilde{M}_{ij} = \Omega_{ij}\rho_j$ at those times.
+    \vspace{0.25em}
+    \pause
+
+
+  \item Controllability: some elements of $\tilde{M}_{ij}$ may not be
+    amenable to external control.  
+  \end{itemize}
+
+\end{frame}
+
 \end{document}
 
