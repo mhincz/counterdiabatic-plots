@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Arch Linux)  (format=lualatex 2019.7.26)  31 JUL 2019 01:13
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Arch Linux)  (format=lualatex 2019.7.26)  31 JUL 2019 18:30
  restricted system commands enabled.
 **cd_proteins
 (./cd_proteins.tex
@@ -1994,9 +1994,6 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 [38
 
 ]
-LaTeX Font Info:    Font shape `TU/texgyreheros(0)/bx/n' will be
-(Font)              scaled to size 10.2591pt on input line 385.
-
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
 (fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
@@ -2030,6 +2027,12 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 [41
 
 ]
+<protocol_cd1.pdf, id=775, 528.78517pt x 314.41985pt>
+File: protocol_cd1.pdf Graphic file (type pdf)
+<use protocol_cd1.pdf>
+Package luatex.def Info: protocol_cd1.pdf  used on input line 402.
+(luatex.def)             Requested size: 335.74263pt x 199.63518pt.
+
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
 (fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
@@ -2040,7 +2043,13 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [42
 
-]
+<./protocol_cd1.pdf>]
+<protocol_cd2.pdf, id=861, 528.78517pt x 314.41988pt>
+File: protocol_cd2.pdf Graphic file (type pdf)
+<use protocol_cd2.pdf>
+Package luatex.def Info: protocol_cd2.pdf  used on input line 402.
+(luatex.def)             Requested size: 335.74263pt x 199.63521pt.
+
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
 (fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
@@ -2051,7 +2060,13 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [43
 
-]
+<./protocol_cd2.pdf>]
+<cd_compare.pdf, id=947, 577.87537pt x 732.806pt>
+File: cd_compare.pdf Graphic file (type pdf)
+<use cd_compare.pdf>
+Package luatex.def Info: cd_compare.pdf  used on input line 408.
+(luatex.def)             Requested size: 177.94318pt x 225.6468pt.
+
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
 (fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
@@ -2060,9 +2075,19 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 Package fontspec Warning: Input mapping not supported in LuaTeX.
 (fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
 
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/it' will be
+(Font)              scaled to size 13.49142pt on input line 408.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/bx/it' will be
+(Font)              scaled to size 13.49142pt on input line 408.
 [44
 
-]
+<./cd_compare.pdf>]
+<exper.pdf, id=990, 528.1688pt x 391.12025pt>
+File: exper.pdf Graphic file (type pdf)
+<use exper.pdf>
+Package luatex.def Info: exper.pdf  used on input line 419.
+(luatex.def)             Requested size: 318.95447pt x 236.1958pt.
+
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
 (fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
@@ -2070,43 +2095,14 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
 (fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Overfull \vbox (0.86783pt too high) detected at line 419
+ []
 
 [45
 
-]
-
-Package fontspec Warning: Input mapping not supported in LuaTeX.
-(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
-
-
-Package fontspec Warning: Input mapping not supported in LuaTeX.
-(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
-
-[46
-
-]
-
-Package fontspec Warning: Input mapping not supported in LuaTeX.
-(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
-
-
-Package fontspec Warning: Input mapping not supported in LuaTeX.
-(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
-
-[47
-
-]
-
-Package fontspec Warning: Input mapping not supported in LuaTeX.
-(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
-
-
-Package fontspec Warning: Input mapping not supported in LuaTeX.
-(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
-
-[48
-
-]
+<./exper.pdf>]
 \tf@nav=\write6
 
 \openout6 = cd_proteins.nav
@@ -2116,46 +2112,45 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 \tf@snm=\write8
 
 \openout8 = cd_proteins.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 417.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 417.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 421.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 421.
  (./cd_proteins.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 417.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 417.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 421.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 421.
 Package rerunfilecheck Info: File `cd_proteins.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 33068 strings out of 494300
+ 33100 strings out of 494300
  100000,953878 words of node,token memory allocated
- 6928 words of node memory still in use:
-   64 hlist, 16 vlist, 3 rule, 41 disc, 8 local_par, 22 math, 153 glue, 64 kern,
- 30 penalty, 401 glyph, 163 attribute, 61 glue_spec, 163 attribute_list, 3 write
-, 32 pdf_literal, 28 pdf_colorstack nodes
-   avail lists: 1:3,2:499,3:150,4:84,5:224,6:25,7:1911,8:36,9:499,10:19,11:82
- 35413 multiletter control sequences out of 65536+600000
- 122 fonts using 18385167 bytes
- 56i,24n,116p,773b,596s stack positions out of 5000i,500n,10000p,200000b,100000s
-</home/michael/.local/share/fonts/texgyreheros-bold.otf></home/michael/.local/sh
-are/fonts/texgyreheros-bolditalic.otf></home/michael/.local/share/fonts/texgyreh
-eros-italic.otf></home/michael/.local/share/fonts/texgyreheros-regular.otf></usr
-/share/fonts/ttf-linux-libertine/LinBiolinum_Rah.ttf></usr/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cmextra/cmex8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
-fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
-fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on cd_proteins.pdf (48 pages, 6652219 bytes).
+ 1942 words of node memory still in use:
+   26 hlist, 9 vlist, 4 rule, 5 disc, 3 local_par, 48 glue, 9 kern, 16 penalty, 
+2 sub_mlist, 46 glyph, 81 attribute, 61 glue_spec, 81 attribute_list, 3 write, 1
+2 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
+   avail lists: 1:3,2:629,3:188,4:96,5:218,6:30,7:1997,8:45,9:648,10:19,11:118
+ 35446 multiletter control sequences out of 65536+600000
+ 133 fonts using 19271159 bytes
+ 56i,25n,116p,773b,596s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/mic
+hael/.local/share/fonts/texgyreheros-bolditalic.otf></home/michael/.local/share/
+fonts/texgyreheros-italic.otf></home/michael/.local/share/fonts/texgyreheros-reg
+ular.otf></usr/share/fonts/ttf-linux-libertine/LinBiolinum_Rah.ttf></usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/shar
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/symbols/msam10.pfb>
+Output written on cd_proteins.pdf (45 pages, 7418727 bytes).
 
-PDF statistics: 898 PDF objects out of 1000 (max. 8388607)
- 600 compressed objects within 6 object streams
- 97 named destinations out of 1000 (max. 131072)
+PDF statistics: 1090 PDF objects out of 1200 (max. 8388607)
+ 721 compressed objects within 8 object streams
+ 91 named destinations out of 1000 (max. 131072)
  21 words of extra memory for PDF output out of 10000 (max. 100000000)
 

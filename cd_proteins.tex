@@ -345,43 +345,118 @@ For given $A$, $B$, $C$, the {\color{blue} stationary distribution} $\bm{\rho}$ 
   
 \end{frame}
 
+\begin{frame}{Solving the CD problem}
+  
+  {\color{red} Solution:} Infinitely many CD solutions for $\tilde{\Omega}(\lambda_t,\dot\lambda_t)$.  But most of them may be physically unrealizable in a given system.
+
+  \pause
+  \vspace{1em} In our case, the external control parameter is
+  $\lambda_t = C_t$, and we work in the limit of large $k_m$, small
+  $r_a$, so $\Omega(C_t)$ is approximately:
+    \[
+    \begin{split}
+&\Omega(C_t) \approx \left(\begin{smallmatrix} 
+{\color{blue} -k_c(C_t)} -r_m & r_c & 0 & k_m \\ 
+{\color{blue} k_c(C_t)} & -r_c -{\color{blue} k_a(A)} & 0 & 0\\
+0 & {\color{blue} k_a(A)} & - k_u & {\color{blue} r_u(C_t)}\\
+r_m & 0 & k_u & -k_m - {\color{blue} r_u(C_t)}
+      \end{smallmatrix}\right)
+      \end{split}
+    \]
+    Really only {\color{blue} two knobs for control:}
+    \begin{itemize}
+      \item free chaperone concentration $C_t$\\
+      \item ATP concentration $A$ (fixed in original protocol)
+     \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Solving the CD problem}
+
+  Approximate CD solution $\tilde{\Omega}(C_t,\dot{C}_t)$ takes the form:
+    \[
+    \begin{split}
+&\tilde{\Omega}(C_t,\dot{C}_t) \approx \left(\begin{smallmatrix} 
+{\color{blue} -k_c(\tilde{C}_t)} -r_m & r_c & 0 & k_m \\ 
+{\color{blue} k_c(\tilde{C}_t)} & -r_c -{\color{blue} k_a(\tilde{A}_t)} & 0 & 0\\
+0 & {\color{blue} k_a(\tilde{A}_t)} & - k_u & {\color{blue} r_u(\tilde{C}_t)}\\
+r_m & 0 & k_u & -k_m - {\color{blue} r_u(\tilde{C}_t)}
+      \end{smallmatrix}\right)
+      \end{split}
+    \]
+    where
+    \[
+    \begin{split}
+    \tilde{C}_t &\approx C_t -\underbrace{\frac{\dot{C}_t}{\gamma_c}\frac{d}{d C_t}\ln \rho_M(C_t)}_{\text{\color{red} CD correction term}}\\
+    k_a(\tilde{A}_t) = \frac{k_\text{f,cat} \tilde{A}_t}{K_\text{f,M}+\tilde{A}_t} &\approx k_a(A) - \underbrace{\frac{k_a(A) \rho_M(t) \dot{C}_t}{k_u(1-\rho_M(t))}\frac{d}{dC_t}\ln \rho_M(C_t)}_{\text{\color{red} CD correction term}}
+    \end{split}
+    \]
+
+      
+\end{frame}
+
+\begin{frame}{CD protocol}
+  \begin{figure}
+\includegraphics<1>[width=\textwidth]{protocol_cd1.pdf}\includegraphics<2>[width=\textwidth]{protocol_cd2.pdf}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{CD protocols for different $\tau$}
+  \begin{figure}
+\includegraphics[width=0.53\textwidth]{cd_compare.pdf}
+  \end{figure}
+\end{frame}
+
+
+
+\begin{frame}{Experimental data: {\it E. coli} heat shock response}
+
+  \vspace{0.25em}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.95\textwidth]{exper.pdf}
+    \end{figure}
+\end{frame}
+
+\end{document}
+
 \begin{frame}{Counterdiabatic protocols for Markov models}
 
   \vspace{0.25em}
-         {\color{red} Solution:}
-         \vspace{0.25em}
-  \begin{itemize}
-  \item 
-    $\tilde{\Omega}_{ij}(\lambda_t,\dot\lambda_t) = \hat{\Omega}_{ij}(\lambda_t,\dot\lambda_t) \Gamma_{j}(\lambda_t,\dot\lambda_t)$ where one constructs the matrix $\hat{\Omega}_{ij}$ and vector $\Gamma_i$ as follows.
+         {\color{red} Solution:} \[
+         \tilde{\Omega}_{ij}(\lambda_t,\dot\lambda_t) = \hat{\Omega}_{ij}(\lambda_t,\dot\lambda_t) \Gamma_{j}(\lambda_t,\dot\lambda_t)\]
+         where one constructs the matrix $\hat{\Omega}_{ij}$ and vector $\Gamma_i$ as follows:
 
-    \vspace{0.25em}
-    \pause
+         \begin{overlayarea}{\textwidth}{4in}
+         
+\only<2>{{\bf\color{blue}{ Step 1:}} Construct $\hat{\Omega}_{ij}$,
+\[
+\hat{\Omega}_{ij}(\lambda_t,\dot\lambda_t) = \tilde{M}_{ij}(\lambda_t,\dot\lambda_t)/\rho_j(\lambda_t)\]
+where $\tilde{M}$ is an arbitrary matrix with positive off-diagonal elements where each row and each column sum to zero.  {\color{blue}Each choice of $\tilde{M}$ corresponds to a distinct CD protocol.}}
 
-  \item $\hat{\Omega}_{ij}(\lambda_t,\dot\lambda_t) = \tilde{M}_{ij}(\lambda_t,\dot\lambda_t)/\rho_j(\lambda_t)$ where $\tilde{M}$ is {\bf\color{blue} any} matrix with positive off-diagonal elements where each row and each column sum to zero.  {\color{blue}Each choice of $\tilde{M}$ corresponds to a distinct CD protocol.}
+\only<3-4>{{\bf\color{blue}{ Step 2:}} Construct $\Gamma_i(\lambda_t,\dot\lambda_t)$,
+  \vspace{-0.5em}
+    \[
+    \Gamma_i(\lambda_t,\dot\lambda_t) = \frac{\left(\hat{\Omega}^\times(\lambda_t,\dot\lambda_t) \dot{\bm{\rho}}(\lambda_t)\right)_i}{\rho_i(\lambda_t)} + \Gamma_0(\lambda_t,\dot\lambda_t)
+    \]
+    \vspace{-0.5em}
 
-    \pause
-    \vspace{0.25em}
-  \item $\Gamma_i(\lambda_t,\dot\lambda_t) = \frac{\left(\hat{\Omega}^\times(\lambda_t,\dot\lambda_t) \dot{\bm{\rho}}(\lambda_t)\right)_i}{\rho_i(\lambda_t)} + \Gamma_0(\lambda_t,\dot\lambda_t)$
-
-   \pause
-    \vspace{0.25em}
-  \item $\hat{\Omega}^\times$ is the Drazin pseudoinverse of $\hat{\Omega}$, which satisfies:
+    \begin{overlayarea}{\textwidth}{2in}
+    \only<4>{
+    Here $\hat{\Omega}^\times$ is the Drazin pseudoinverse of $\hat{\Omega}$, which satisfies:
     \[
     \hat{\Omega}^\times(\lambda_t,\dot\lambda_t) \hat{\Omega}(\lambda_t,\dot\lambda_t) = I - \bm{\rho}(\lambda_t) \bm{e}^T
     \]
-    where $I$ is the identity matrix and $e_i = 1$ for all $i$.
-
-    \pause
-    \vspace{0.25em}
-
-  \item $\Gamma_0$ is uniquely specified by enforcing the condition:
+    
+    \vspace{-0.5em}
+    where $I$ is the identity matrix and $e_i = 1$ for all $i$.  $\Gamma_0$ is uniquely specified by enforcing the condition:\\[-0.5em]
     \[
     \sum_{i=1}^N \frac{\rho_i(\lambda_t)}{\Gamma_i(\lambda_t,\dot\lambda_t)}  = 1
-    \]
-    
+    \]}
+    \end{overlayarea}
+}
 
-  \end{itemize}
-  
+\end{overlayarea}
 \end{frame}
 
 \begin{frame}{Constraints on possible CD protocols}
@@ -391,28 +466,27 @@ For given $A$, $B$, $C$, the {\color{blue} stationary distribution} $\bm{\rho}$ 
   \vspace{1em}
   \pause
 
-  But for a specific protocol, almost none of them may be {\color{blue} physically realizable}.
+  But for a specific system, almost none of them may be physically realizable.
 
   \pause
 
   \vspace{1em} {\color{red} Typical constraints:}
 
   \begin{itemize}
-  \item Continuity: $\tilde{M}(\lambda_t,\dot\lambda_t)$ should be
+  \item {\color{blue} Continuity:} $\tilde{M}(\lambda_t,\dot\lambda_t)$ should be
     continuous in $t$.
     \vspace{0.25em}
     \pause
 
-  \item Boundary conditions:  in order for $\tilde{\Omega}(\lambda_t,\dot\lambda_t) = \Omega(\lambda_t)$ at $t=0$ and $\tau$, we must have $\tilde{M}_{ij} = \Omega_{ij}\rho_j$ at those times.
+  \item {\color{blue} Boundary conditions:}  in order for $\tilde{\Omega}(\lambda_t,\dot\lambda_t) = \Omega(\lambda_t)$ at $t=0$ and $\tau$, we must have $\tilde{M}_{ij} = \Omega_{ij}\rho_j$ at those times.
     \vspace{0.25em}
     \pause
 
 
-  \item Controllability: some elements of $\tilde{M}_{ij}$ may not be
-    amenable to external control.  
+  \item {\color{blue} Controllability:} some elements of
+    $\tilde{M}_{ij}$ may not be amenable to external control (i.e. the
+    corresponding elements $\tilde{\Omega}$ cannot be varied).
   \end{itemize}
 
 \end{frame}
-
-\end{document}
 
