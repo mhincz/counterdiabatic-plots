@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Arch Linux)  (format=lualatex 2019.7.26)  31 JUL 2019 19:58
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Arch Linux)  (format=lualatex 2019.7.26)  1 AUG 2019 18:44
  restricted system commands enabled.
 **cd_proteins
 (./cd_proteins.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.041 seconds
+luaotfload | main : initialization completed in 0.039 seconds
 (/usr/share/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
 (/usr/share/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
@@ -1297,13 +1297,31 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
  (./cd_proteins.nav)
 LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/n' will be
 (Font)              scaled to size 5.62143pt on input line 80.
-<analogy1.pdf, id=14, 202.09895pt x 94.1496pt>
+<title.pdf, id=14, 770.88pt x 578.16pt>
+File: title.pdf Graphic file (type pdf)
+<use title.pdf>
+Package luatex.def Info: title.pdf  used on input line 88.
+(luatex.def)             Requested size: 364.19536pt x 273.14676pt.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/n' will be
+(Font)              scaled to size 3.74762pt on input line 88.
+ [1
+
+<./title.pdf>]
+<acknow.pdf, id=38, 770.88pt x 578.16pt>
+File: acknow.pdf Graphic file (type pdf)
+<use acknow.pdf>
+Package luatex.def Info: acknow.pdf  used on input line 96.
+(luatex.def)             Requested size: 364.19536pt x 273.14676pt.
+ [2
+
+<./acknow.pdf>]
+<analogy1.pdf, id=62, 200.82022pt x 97.16084pt>
 File: analogy1.pdf Graphic file (type pdf)
 <use analogy1.pdf>
-Package luatex.def Info: analogy1.pdf  used on input line 97.
-(luatex.def)             Requested size: 335.74263pt x 156.4118pt.
+Package luatex.def Info: analogy1.pdf  used on input line 105.
+(luatex.def)             Requested size: 335.74263pt x 162.4448pt.
 LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/n' will be
-(Font)              scaled to size 13.49142pt on input line 97.
+(Font)              scaled to size 13.49142pt on input line 105.
 luaotfload | cache : Lookup cache loaded from /home/michael/.texlive/texmf-var/l
 uatex-cache/generic/names/luaotfload-lookup-cache.luc.
 
@@ -1344,50 +1362,14 @@ tlig;+smcp;"
 Package fontspec Warning: Input mapping not supported in LuaTeX.
 (fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
 
-LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/n' will be
-(Font)              scaled to size 3.74762pt on input line 97.
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./analogy1.pdf>]
-<analogy2.pdf, id=39, 202.09895pt x 94.1496pt>
-File: analogy2.pdf Graphic file (type pdf)
-<use analogy2.pdf>
-Package luatex.def Info: analogy2.pdf  used on input line 97.
-(luatex.def)             Requested size: 335.74263pt x 156.4118pt.
-
-
-Package fontspec Warning: Input mapping not supported in LuaTeX.
-(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
-
-
-Package fontspec Warning: Input mapping not supported in LuaTeX.
-(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
-
-[2
-
-<./analogy2.pdf>]
-<analogy3.pdf, id=79, 202.09895pt x 94.1496pt>
-File: analogy3.pdf Graphic file (type pdf)
-<use analogy3.pdf>
-Package luatex.def Info: analogy3.pdf  used on input line 97.
-(luatex.def)             Requested size: 335.74263pt x 156.4118pt.
-
-
-Package fontspec Warning: Input mapping not supported in LuaTeX.
-(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
-
-
-Package fontspec Warning: Input mapping not supported in LuaTeX.
-(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
-
 [3
 
-<./analogy3.pdf>]
-<dogma1.pdf, id=124, 635.32565pt x 360.7138pt>
-File: dogma1.pdf Graphic file (type pdf)
-<use dogma1.pdf>
-Package luatex.def Info: dogma1.pdf  used on input line 105.
-(luatex.def)             Requested size: 335.74263pt x 190.62149pt.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./analogy1.pdf>]
+<analogy2.pdf, id=86, 200.82022pt x 97.16084pt>
+File: analogy2.pdf Graphic file (type pdf)
+<use analogy2.pdf>
+Package luatex.def Info: analogy2.pdf  used on input line 105.
+(luatex.def)             Requested size: 335.74263pt x 162.4448pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1399,12 +1381,12 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [4
 
-<./dogma1.pdf>]
-<dogma1b.pdf, id=136, 635.32565pt x 360.7138pt>
-File: dogma1b.pdf Graphic file (type pdf)
-<use dogma1b.pdf>
-Package luatex.def Info: dogma1b.pdf  used on input line 105.
-(luatex.def)             Requested size: 335.74263pt x 190.62149pt.
+<./analogy2.pdf>]
+<analogy3.pdf, id=126, 200.82022pt x 97.16084pt>
+File: analogy3.pdf Graphic file (type pdf)
+<use analogy3.pdf>
+Package luatex.def Info: analogy3.pdf  used on input line 105.
+(luatex.def)             Requested size: 335.74263pt x 162.4448pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1416,11 +1398,11 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [5
 
-<./dogma1b.pdf>]
-<dogma2.pdf, id=161, 635.32565pt x 360.7138pt>
-File: dogma2.pdf Graphic file (type pdf)
-<use dogma2.pdf>
-Package luatex.def Info: dogma2.pdf  used on input line 105.
+<./analogy3.pdf>]
+<dogma1.pdf, id=172, 635.32565pt x 360.7138pt>
+File: dogma1.pdf Graphic file (type pdf)
+<use dogma1.pdf>
+Package luatex.def Info: dogma1.pdf  used on input line 114.
 (luatex.def)             Requested size: 335.74263pt x 190.62149pt.
 
 
@@ -1433,35 +1415,12 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [6
 
-<./dogma2.pdf>]
-<thermal_unfold.pdf, id=176, 530.76222pt x 699.45091pt>
-File: thermal_unfold.pdf Graphic file (type pdf)
-<use thermal_unfold.pdf>
-Package luatex.def Info: thermal_unfold.pdf  used on input line 126.
-(luatex.def)             Requested size: 167.8713pt x 221.22472pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 126.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 126.
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/it' will be
-(Font)              scaled to size 10.2591pt on input line 126.
-LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/it' will be
-(Font)              scaled to size 7.49524pt on input line 126.
-LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/it' will be
-(Font)              scaled to size 5.62143pt on input line 126.
-LaTeX Font Info:    Font shape `TU/texgyreheros(0)/bx/it' will be
-(Font)              scaled to size 10.2591pt on input line 126.
-LaTeX Font Info:    Font shape `TU/texgyreheros(0)/bx/it' will be
-(Font)              scaled to size 7.49524pt on input line 126.
-LaTeX Font Info:    Font shape `TU/texgyreheros(0)/bx/it' will be
-(Font)              scaled to size 5.62143pt on input line 126.
-LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/n' will be
-(Font)              scaled to size 7.49524pt on input line 126.
+<./dogma1.pdf>]
+<dogma1b.pdf, id=184, 635.32565pt x 360.7138pt>
+File: dogma1b.pdf Graphic file (type pdf)
+<use dogma1b.pdf>
+Package luatex.def Info: dogma1b.pdf  used on input line 114.
+(luatex.def)             Requested size: 335.74263pt x 190.62149pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1473,11 +1432,12 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [7
 
-<./thermal_unfold.pdf>]
-File: thermal_unfold.pdf Graphic file (type pdf)
-<use thermal_unfold.pdf>
-Package luatex.def Info: thermal_unfold.pdf  used on input line 126.
-(luatex.def)             Requested size: 167.8713pt x 221.22472pt.
+<./dogma1b.pdf>]
+<dogma2.pdf, id=209, 635.32565pt x 360.7138pt>
+File: dogma2.pdf Graphic file (type pdf)
+<use dogma2.pdf>
+Package luatex.def Info: dogma2.pdf  used on input line 114.
+(luatex.def)             Requested size: 335.74263pt x 190.62149pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1489,11 +1449,35 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [8
 
-]
+<./dogma2.pdf>]
+<thermal_unfold.pdf, id=223, 530.76222pt x 699.45091pt>
 File: thermal_unfold.pdf Graphic file (type pdf)
 <use thermal_unfold.pdf>
-Package luatex.def Info: thermal_unfold.pdf  used on input line 126.
+Package luatex.def Info: thermal_unfold.pdf  used on input line 135.
 (luatex.def)             Requested size: 167.8713pt x 221.22472pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 135.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 135.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/it' will be
+(Font)              scaled to size 10.2591pt on input line 135.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/it' will be
+(Font)              scaled to size 7.49524pt on input line 135.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/it' will be
+(Font)              scaled to size 5.62143pt on input line 135.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/bx/it' will be
+(Font)              scaled to size 10.2591pt on input line 135.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/bx/it' will be
+(Font)              scaled to size 7.49524pt on input line 135.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/bx/it' will be
+(Font)              scaled to size 5.62143pt on input line 135.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/n' will be
+(Font)              scaled to size 7.49524pt on input line 135.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1505,12 +1489,11 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [9
 
-]
-<misfolding1.pdf, id=201, 1079.20058pt x 655.25786pt>
-File: misfolding1.pdf Graphic file (type pdf)
-<use misfolding1.pdf>
-Package luatex.def Info: misfolding1.pdf  used on input line 133.
-(luatex.def)             Requested size: 335.74263pt x 203.84772pt.
+<./thermal_unfold.pdf>]
+File: thermal_unfold.pdf Graphic file (type pdf)
+<use thermal_unfold.pdf>
+Package luatex.def Info: thermal_unfold.pdf  used on input line 135.
+(luatex.def)             Requested size: 167.8713pt x 221.22472pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1522,12 +1505,11 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [10
 
-<./misfolding1.pdf>]
-<misfolding2.pdf, id=219, 1079.20058pt x 655.25786pt>
-File: misfolding2.pdf Graphic file (type pdf)
-<use misfolding2.pdf>
-Package luatex.def Info: misfolding2.pdf  used on input line 133.
-(luatex.def)             Requested size: 335.74263pt x 203.84772pt.
+]
+File: thermal_unfold.pdf Graphic file (type pdf)
+<use thermal_unfold.pdf>
+Package luatex.def Info: thermal_unfold.pdf  used on input line 135.
+(luatex.def)             Requested size: 167.8713pt x 221.22472pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1539,11 +1521,11 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [11
 
-<./misfolding2.pdf>]
-<misfolding3.pdf, id=246, 1079.20058pt x 655.25786pt>
-File: misfolding3.pdf Graphic file (type pdf)
-<use misfolding3.pdf>
-Package luatex.def Info: misfolding3.pdf  used on input line 133.
+]
+<misfolding1.pdf, id=249, 1079.20058pt x 655.25786pt>
+File: misfolding1.pdf Graphic file (type pdf)
+<use misfolding1.pdf>
+Package luatex.def Info: misfolding1.pdf  used on input line 142.
 (luatex.def)             Requested size: 335.74263pt x 203.84772pt.
 
 
@@ -1556,12 +1538,12 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [12
 
-<./misfolding3.pdf>]
-<ecoli_network.png, id=285, 1203.49625pt x 1168.365pt>
-File: ecoli_network.png Graphic file (type png)
-<use ecoli_network.png>
-Package luatex.def Info: ecoli_network.png  used on input line 141.
-(luatex.def)             Requested size: 218.23065pt x 211.84764pt.
+<./misfolding1.pdf>]
+<misfolding2.pdf, id=267, 1079.20058pt x 655.25786pt>
+File: misfolding2.pdf Graphic file (type pdf)
+<use misfolding2.pdf>
+Package luatex.def Info: misfolding2.pdf  used on input line 142.
+(luatex.def)             Requested size: 335.74263pt x 203.84772pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1573,12 +1555,12 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [13
 
-<./ecoli_network.png>]
-<ecoli_flux1.png, id=293, 337.9827pt x 131.7723pt>
-File: ecoli_flux1.png Graphic file (type png)
-<use ecoli_flux1.png>
-Package luatex.def Info: ecoli_flux1.png  used on input line 156.
-(luatex.def)             Requested size: 335.74263pt x 130.90334pt.
+<./misfolding2.pdf>]
+<misfolding3.pdf, id=293, 1079.20058pt x 655.25786pt>
+File: misfolding3.pdf Graphic file (type pdf)
+<use misfolding3.pdf>
+Package luatex.def Info: misfolding3.pdf  used on input line 142.
+(luatex.def)             Requested size: 335.74263pt x 203.84772pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1590,12 +1572,12 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [14
 
-<./ecoli_flux1.png>]
-<ecoli_flux2.png, id=300, 338.9463pt x 132.0132pt>
-File: ecoli_flux2.png Graphic file (type png)
-<use ecoli_flux2.png>
-Package luatex.def Info: ecoli_flux2.png  used on input line 156.
-(luatex.def)             Requested size: 335.74263pt x 130.76799pt.
+<./misfolding3.pdf>]
+<ecoli_network.png, id=333, 1203.49625pt x 1168.365pt>
+File: ecoli_network.png Graphic file (type png)
+<use ecoli_network.png>
+Package luatex.def Info: ecoli_network.png  used on input line 150.
+(luatex.def)             Requested size: 218.23065pt x 211.84764pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1607,12 +1589,12 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [15
 
-<./ecoli_flux2.png>]
-<ecoli_flux3.png, id=307, 338.9463pt x 132.0132pt>
-File: ecoli_flux3.png Graphic file (type png)
-<use ecoli_flux3.png>
-Package luatex.def Info: ecoli_flux3.png  used on input line 156.
-(luatex.def)             Requested size: 335.74263pt x 130.76799pt.
+<./ecoli_network.png>]
+<ecoli_flux1.png, id=341, 337.9827pt x 131.7723pt>
+File: ecoli_flux1.png Graphic file (type png)
+<use ecoli_flux1.png>
+Package luatex.def Info: ecoli_flux1.png  used on input line 165.
+(luatex.def)             Requested size: 335.74263pt x 130.90334pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1624,30 +1606,12 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [16
 
-<./ecoli_flux3.png>]
-LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/n' will be
-(Font)              scaled to size 9.36905pt on input line 175.
-LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/it' will be
-(Font)              scaled to size 9.36905pt on input line 175.
-LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/it' will be
-(Font)              scaled to size 6.55833pt on input line 175.
-LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/it' will be
-(Font)              scaled to size 4.68452pt on input line 175.
-LaTeX Font Info:    Font shape `TU/texgyreheros(0)/bx/it' will be
-(Font)              scaled to size 9.36905pt on input line 175.
-LaTeX Font Info:    Font shape `TU/texgyreheros(0)/bx/it' will be
-(Font)              scaled to size 6.55833pt on input line 175.
-LaTeX Font Info:    Font shape `TU/texgyreheros(0)/bx/it' will be
-(Font)              scaled to size 4.68452pt on input line 175.
-LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/n' will be
-(Font)              scaled to size 6.55833pt on input line 175.
-LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/n' will be
-(Font)              scaled to size 4.68452pt on input line 175.
-<yeast_response.pdf, id=314, 466.32341pt x 168.1346pt>
-File: yeast_response.pdf Graphic file (type pdf)
-<use yeast_response.pdf>
-Package luatex.def Info: yeast_response.pdf  used on input line 175.
-(luatex.def)             Requested size: 335.74263pt x 121.05424pt.
+<./ecoli_flux1.png>]
+<ecoli_flux2.png, id=348, 338.9463pt x 132.0132pt>
+File: ecoli_flux2.png Graphic file (type png)
+<use ecoli_flux2.png>
+Package luatex.def Info: ecoli_flux2.png  used on input line 165.
+(luatex.def)             Requested size: 335.74263pt x 130.76799pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1659,11 +1623,12 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [17
 
-<./yeast_response.pdf>]
-File: yeast_response.pdf Graphic file (type pdf)
-<use yeast_response.pdf>
-Package luatex.def Info: yeast_response.pdf  used on input line 175.
-(luatex.def)             Requested size: 335.74263pt x 121.05424pt.
+<./ecoli_flux2.png>]
+<ecoli_flux3.png, id=355, 338.9463pt x 132.0132pt>
+File: ecoli_flux3.png Graphic file (type png)
+<use ecoli_flux3.png>
+Package luatex.def Info: ecoli_flux3.png  used on input line 165.
+(luatex.def)             Requested size: 335.74263pt x 130.76799pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1675,10 +1640,29 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [18
 
-]
+<./ecoli_flux3.png>]
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/n' will be
+(Font)              scaled to size 9.36905pt on input line 184.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/it' will be
+(Font)              scaled to size 9.36905pt on input line 184.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/it' will be
+(Font)              scaled to size 6.55833pt on input line 184.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/it' will be
+(Font)              scaled to size 4.68452pt on input line 184.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/bx/it' will be
+(Font)              scaled to size 9.36905pt on input line 184.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/bx/it' will be
+(Font)              scaled to size 6.55833pt on input line 184.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/bx/it' will be
+(Font)              scaled to size 4.68452pt on input line 184.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/n' will be
+(Font)              scaled to size 6.55833pt on input line 184.
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/n' will be
+(Font)              scaled to size 4.68452pt on input line 184.
+<yeast_response.pdf, id=362, 466.32341pt x 168.1346pt>
 File: yeast_response.pdf Graphic file (type pdf)
 <use yeast_response.pdf>
-Package luatex.def Info: yeast_response.pdf  used on input line 175.
+Package luatex.def Info: yeast_response.pdf  used on input line 184.
 (luatex.def)             Requested size: 335.74263pt x 121.05424pt.
 
 
@@ -1691,12 +1675,11 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [19
 
-]
-<markov0.pdf, id=354, 601.59018pt x 541.22202pt>
-File: markov0.pdf Graphic file (type pdf)
-<use markov0.pdf>
-Package luatex.def Info: markov0.pdf  used on input line 187.
-(luatex.def)             Requested size: 184.65947pt x 166.12541pt.
+<./yeast_response.pdf>]
+File: yeast_response.pdf Graphic file (type pdf)
+<use yeast_response.pdf>
+Package luatex.def Info: yeast_response.pdf  used on input line 184.
+(luatex.def)             Requested size: 335.74263pt x 121.05424pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1708,12 +1691,11 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [20
 
-<./markov0.pdf>]
-<markov0b.pdf, id=380, 601.59018pt x 541.22202pt>
-File: markov0b.pdf Graphic file (type pdf)
-<use markov0b.pdf>
-Package luatex.def Info: markov0b.pdf  used on input line 187.
-(luatex.def)             Requested size: 184.65947pt x 166.12541pt.
+]
+File: yeast_response.pdf Graphic file (type pdf)
+<use yeast_response.pdf>
+Package luatex.def Info: yeast_response.pdf  used on input line 184.
+(luatex.def)             Requested size: 335.74263pt x 121.05424pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1725,12 +1707,12 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [21
 
-<./markov0b.pdf>]
-<markov1.pdf, id=410, 404.51894pt x 460.67346pt>
-File: markov1.pdf Graphic file (type pdf)
-<use markov1.pdf>
-Package luatex.def Info: markov1.pdf  used on input line 208.
-(luatex.def)             Requested size: 159.47722pt x 181.61607pt.
+]
+<markov0.pdf, id=402, 601.59018pt x 541.22202pt>
+File: markov0.pdf Graphic file (type pdf)
+<use markov0.pdf>
+Package luatex.def Info: markov0.pdf  used on input line 196.
+(luatex.def)             Requested size: 184.65947pt x 166.12541pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1742,12 +1724,12 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [22
 
-<./markov1.pdf>]
-<markov2.pdf, id=441, 404.51894pt x 460.67346pt>
-File: markov2.pdf Graphic file (type pdf)
-<use markov2.pdf>
-Package luatex.def Info: markov2.pdf  used on input line 226.
-(luatex.def)             Requested size: 159.47722pt x 181.61607pt.
+<./markov0.pdf>]
+<markov0b.pdf, id=428, 601.59018pt x 541.22202pt>
+File: markov0b.pdf Graphic file (type pdf)
+<use markov0b.pdf>
+Package luatex.def Info: markov0b.pdf  used on input line 196.
+(luatex.def)             Requested size: 184.65947pt x 166.12541pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1759,11 +1741,11 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [23
 
-<./markov2.pdf>]
-<markov3.pdf, id=467, 404.51894pt x 460.67346pt>
-File: markov3.pdf Graphic file (type pdf)
-<use markov3.pdf>
-Package luatex.def Info: markov3.pdf  used on input line 257.
+<./markov0b.pdf>]
+<markov1.pdf, id=457, 404.51894pt x 460.67346pt>
+File: markov1.pdf Graphic file (type pdf)
+<use markov1.pdf>
+Package luatex.def Info: markov1.pdf  used on input line 217.
 (luatex.def)             Requested size: 159.47722pt x 181.61607pt.
 
 
@@ -1776,10 +1758,11 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [24
 
-<./markov3.pdf>]
-File: markov3.pdf Graphic file (type pdf)
-<use markov3.pdf>
-Package luatex.def Info: markov3.pdf  used on input line 257.
+<./markov1.pdf>]
+<markov2.pdf, id=489, 404.51894pt x 460.67346pt>
+File: markov2.pdf Graphic file (type pdf)
+<use markov2.pdf>
+Package luatex.def Info: markov2.pdf  used on input line 235.
 (luatex.def)             Requested size: 159.47722pt x 181.61607pt.
 
 
@@ -1792,16 +1775,12 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [25
 
-]
-<markov4.pdf, id=499, 404.51894pt x 460.67346pt>
-File: markov4.pdf Graphic file (type pdf)
-<use markov4.pdf>
-Package luatex.def Info: markov4.pdf  used on input line 292.
-(luatex.def)             Requested size: 141.01128pt x 160.5844pt.
-
-Overfull \hbox (5.87836pt too wide) detected at line 292
-[]
- []
+<./markov2.pdf>]
+<markov3.pdf, id=515, 404.51894pt x 460.67346pt>
+File: markov3.pdf Graphic file (type pdf)
+<use markov3.pdf>
+Package luatex.def Info: markov3.pdf  used on input line 266.
+(luatex.def)             Requested size: 159.47722pt x 181.61607pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1813,15 +1792,11 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [26
 
-<./markov4.pdf>]
-File: markov4.pdf Graphic file (type pdf)
-<use markov4.pdf>
-Package luatex.def Info: markov4.pdf  used on input line 292.
-(luatex.def)             Requested size: 141.01128pt x 160.5844pt.
-
-Overfull \hbox (5.87836pt too wide) detected at line 292
-[]
- []
+<./markov3.pdf>]
+File: markov3.pdf Graphic file (type pdf)
+<use markov3.pdf>
+Package luatex.def Info: markov3.pdf  used on input line 266.
+(luatex.def)             Requested size: 159.47722pt x 181.61607pt.
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1834,11 +1809,15 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 [27
 
 ]
-<protocol1.pdf, id=535, 269.52167pt x 314.41988pt>
-File: protocol1.pdf Graphic file (type pdf)
-<use protocol1.pdf>
-Package luatex.def Info: protocol1.pdf  used on input line 314.
-(luatex.def)             Requested size: 201.44762pt x 235.00832pt.
+<markov4.pdf, id=546, 404.51894pt x 460.67346pt>
+File: markov4.pdf Graphic file (type pdf)
+<use markov4.pdf>
+Package luatex.def Info: markov4.pdf  used on input line 301.
+(luatex.def)             Requested size: 141.01128pt x 160.5844pt.
+
+Overfull \hbox (5.87836pt too wide) detected at line 301
+[]
+ []
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1850,11 +1829,15 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [28
 
-<./protocol1.pdf>]
-File: protocol1.pdf Graphic file (type pdf)
-<use protocol1.pdf>
-Package luatex.def Info: protocol1.pdf  used on input line 314.
-(luatex.def)             Requested size: 201.44762pt x 235.00832pt.
+<./markov4.pdf>]
+File: markov4.pdf Graphic file (type pdf)
+<use markov4.pdf>
+Package luatex.def Info: markov4.pdf  used on input line 301.
+(luatex.def)             Requested size: 141.01128pt x 160.5844pt.
+
+Overfull \hbox (5.87836pt too wide) detected at line 301
+[]
+ []
 
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
@@ -1867,9 +1850,10 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 [29
 
 ]
+<protocol1.pdf, id=582, 269.52167pt x 314.41988pt>
 File: protocol1.pdf Graphic file (type pdf)
 <use protocol1.pdf>
-Package luatex.def Info: protocol1.pdf  used on input line 314.
+Package luatex.def Info: protocol1.pdf  used on input line 323.
 (luatex.def)             Requested size: 201.44762pt x 235.00832pt.
 
 
@@ -1882,11 +1866,10 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [30
 
-]
-<protocol1b.pdf, id=589, 269.52167pt x 314.41988pt>
-File: protocol1b.pdf Graphic file (type pdf)
-<use protocol1b.pdf>
-Package luatex.def Info: protocol1b.pdf  used on input line 314.
+<./protocol1.pdf>]
+File: protocol1.pdf Graphic file (type pdf)
+<use protocol1.pdf>
+Package luatex.def Info: protocol1.pdf  used on input line 323.
 (luatex.def)             Requested size: 201.44762pt x 235.00832pt.
 
 
@@ -1899,11 +1882,10 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [31
 
-<./protocol1b.pdf>]
-<protocol2.pdf, id=633, 269.52167pt x 314.41988pt>
-File: protocol2.pdf Graphic file (type pdf)
-<use protocol2.pdf>
-Package luatex.def Info: protocol2.pdf  used on input line 314.
+]
+File: protocol1.pdf Graphic file (type pdf)
+<use protocol1.pdf>
+Package luatex.def Info: protocol1.pdf  used on input line 323.
 (luatex.def)             Requested size: 201.44762pt x 235.00832pt.
 
 
@@ -1916,11 +1898,11 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [32
 
-<./protocol2.pdf>]
-<protocol3.pdf, id=677, 269.52167pt x 314.41988pt>
-File: protocol3.pdf Graphic file (type pdf)
-<use protocol3.pdf>
-Package luatex.def Info: protocol3.pdf  used on input line 314.
+]
+<protocol1b.pdf, id=637, 269.52167pt x 314.41988pt>
+File: protocol1b.pdf Graphic file (type pdf)
+<use protocol1b.pdf>
+Package luatex.def Info: protocol1b.pdf  used on input line 323.
 (luatex.def)             Requested size: 201.44762pt x 235.00832pt.
 
 
@@ -1933,10 +1915,11 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [33
 
-<./protocol3.pdf>]
-File: protocol3.pdf Graphic file (type pdf)
-<use protocol3.pdf>
-Package luatex.def Info: protocol3.pdf  used on input line 314.
+<./protocol1b.pdf>]
+<protocol2.pdf, id=681, 269.52167pt x 314.41988pt>
+File: protocol2.pdf Graphic file (type pdf)
+<use protocol2.pdf>
+Package luatex.def Info: protocol2.pdf  used on input line 323.
 (luatex.def)             Requested size: 201.44762pt x 235.00832pt.
 
 
@@ -1949,7 +1932,13 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [34
 
-]
+<./protocol2.pdf>]
+<protocol3.pdf, id=724, 269.52167pt x 314.41988pt>
+File: protocol3.pdf Graphic file (type pdf)
+<use protocol3.pdf>
+Package luatex.def Info: protocol3.pdf  used on input line 323.
+(luatex.def)             Requested size: 201.44762pt x 235.00832pt.
+
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
 (fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
@@ -1960,7 +1949,12 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [35
 
-]
+<./protocol3.pdf>]
+File: protocol3.pdf Graphic file (type pdf)
+<use protocol3.pdf>
+Package luatex.def Info: protocol3.pdf  used on input line 323.
+(luatex.def)             Requested size: 201.44762pt x 235.00832pt.
+
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
 (fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
@@ -2027,12 +2021,6 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 [41
 
 ]
-<protocol_cd1.pdf, id=775, 528.78517pt x 314.41985pt>
-File: protocol_cd1.pdf Graphic file (type pdf)
-<use protocol_cd1.pdf>
-Package luatex.def Info: protocol_cd1.pdf  used on input line 402.
-(luatex.def)             Requested size: 335.74263pt x 199.63518pt.
-
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
 (fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
@@ -2043,13 +2031,7 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [42
 
-<./protocol_cd1.pdf>]
-<protocol_cd2.pdf, id=861, 528.78517pt x 314.41988pt>
-File: protocol_cd2.pdf Graphic file (type pdf)
-<use protocol_cd2.pdf>
-Package luatex.def Info: protocol_cd2.pdf  used on input line 402.
-(luatex.def)             Requested size: 335.74263pt x 199.63521pt.
-
+]
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
 (fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
@@ -2060,11 +2042,45 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 [43
 
+]
+<protocol_cd1.pdf, id=823, 528.78517pt x 314.41985pt>
+File: protocol_cd1.pdf Graphic file (type pdf)
+<use protocol_cd1.pdf>
+Package luatex.def Info: protocol_cd1.pdf  used on input line 411.
+(luatex.def)             Requested size: 335.74263pt x 199.63518pt.
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[44
+
+<./protocol_cd1.pdf>]
+<protocol_cd2.pdf, id=908, 528.78517pt x 314.41988pt>
+File: protocol_cd2.pdf Graphic file (type pdf)
+<use protocol_cd2.pdf>
+Package luatex.def Info: protocol_cd2.pdf  used on input line 411.
+(luatex.def)             Requested size: 335.74263pt x 199.63521pt.
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[45
+
 <./protocol_cd2.pdf>]
-<cd_compare.pdf, id=947, 577.87537pt x 732.806pt>
+<cd_compare.pdf, id=994, 577.87537pt x 732.806pt>
 File: cd_compare.pdf Graphic file (type pdf)
 <use cd_compare.pdf>
-Package luatex.def Info: cd_compare.pdf  used on input line 408.
+Package luatex.def Info: cd_compare.pdf  used on input line 417.
 (luatex.def)             Requested size: 177.94318pt x 225.6468pt.
 
 
@@ -2076,16 +2092,16 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 (fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
 
 LaTeX Font Info:    Font shape `TU/texgyreheros(0)/m/it' will be
-(Font)              scaled to size 13.49142pt on input line 408.
+(Font)              scaled to size 13.49142pt on input line 417.
 LaTeX Font Info:    Font shape `TU/texgyreheros(0)/bx/it' will be
-(Font)              scaled to size 13.49142pt on input line 408.
-[44
+(Font)              scaled to size 13.49142pt on input line 417.
+[46
 
 <./cd_compare.pdf>]
-<exper.pdf, id=990, 528.1688pt x 391.12025pt>
+<exper.pdf, id=1037, 528.1688pt x 391.12025pt>
 File: exper.pdf Graphic file (type pdf)
 <use exper.pdf>
-Package luatex.def Info: exper.pdf  used on input line 419.
+Package luatex.def Info: exper.pdf  used on input line 428.
 (luatex.def)             Requested size: 318.95447pt x 236.1958pt.
 
 
@@ -2097,10 +2113,10 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 (fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
 
 
-Overfull \vbox (0.86783pt too high) detected at line 419
+Overfull \vbox (0.86783pt too high) detected at line 428
  []
 
-[45
+[47
 
 <./exper.pdf>]
 
@@ -2112,45 +2128,15 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 (fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
 
 
-Overfull \vbox (94.37698pt too high) detected at line 459
- []
-
-[46
-
-]
-LaTeX Font Info:    Font shape `TU/texgyreheros(0)/bx/n' will be
-(Font)              scaled to size 10.2591pt on input line 459.
-
-
-Package fontspec Warning: Input mapping not supported in LuaTeX.
-(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
-
-
-Package fontspec Warning: Input mapping not supported in LuaTeX.
-(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
-
-
-Overfull \vbox (94.37698pt too high) detected at line 459
- []
-
-[47
-
-]
-
-Package fontspec Warning: Input mapping not supported in LuaTeX.
-(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
-
-
-Package fontspec Warning: Input mapping not supported in LuaTeX.
-(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
-
-
-Overfull \vbox (94.37698pt too high) detected at line 459
+Overfull \vbox (94.37698pt too high) detected at line 468
  []
 
 [48
 
 ]
+LaTeX Font Info:    Font shape `TU/texgyreheros(0)/bx/n' will be
+(Font)              scaled to size 10.2591pt on input line 468.
+
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
 (fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
@@ -2160,7 +2146,7 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 (fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
 
 
-Overfull \vbox (94.37698pt too high) detected at line 459
+Overfull \vbox (94.37698pt too high) detected at line 468
  []
 
 [49
@@ -2174,6 +2160,10 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 Package fontspec Warning: Input mapping not supported in LuaTeX.
 (fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
 
+
+Overfull \vbox (94.37698pt too high) detected at line 468
+ []
+
 [50
 
 ]
@@ -2184,6 +2174,10 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 
 Package fontspec Warning: Input mapping not supported in LuaTeX.
 (fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Overfull \vbox (94.37698pt too high) detected at line 468
+ []
 
 [51
 
@@ -2221,6 +2215,28 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 [54
 
 ]
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[55
+
+]
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+
+Package fontspec Warning: Input mapping not supported in LuaTeX.
+(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
+
+[56
+
+]
 \tf@nav=\write6
 
 \openout6 = cd_proteins.nav
@@ -2230,24 +2246,24 @@ Package fontspec Warning: Input mapping not supported in LuaTeX.
 \tf@snm=\write8
 
 \openout8 = cd_proteins.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 492.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 492.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 501.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 501.
  (./cd_proteins.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 492.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 492.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 501.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 501.
 Package rerunfilecheck Info: File `cd_proteins.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 33194 strings out of 494300
+ 33223 strings out of 494300
  100000,953878 words of node,token memory allocated
  7546 words of node memory still in use:
    66 hlist, 17 vlist, 3 rule, 47 disc, 8 local_par, 24 math, 161 glue, 71 kern,
  30 penalty, 2 sub_mlist, 451 glyph, 175 attribute, 61 glue_spec, 175 attribute_
 list, 3 write, 32 pdf_literal, 32 pdf_colorstack nodes
    avail lists: 1:3,2:441,3:145,4:76,5:161,6:25,7:1455,8:45,9:601,10:19,11:94
- 35447 multiletter control sequences out of 65536+600000
+ 35464 multiletter control sequences out of 65536+600000
  134 fonts using 19482503 bytes
  56i,25n,116p,773b,596s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/michael/.local/share/fonts/texgyreheros-bold.otf></usr/share/texmf-dist/f
@@ -2266,10 +2282,10 @@ dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
 .pfb>
-Output written on cd_proteins.pdf (54 pages, 7436855 bytes).
+Output written on cd_proteins.pdf (56 pages, 11150021 bytes).
 
-PDF statistics: 1144 PDF objects out of 1200 (max. 8388607)
- 763 compressed objects within 8 object streams
- 109 named destinations out of 1000 (max. 131072)
+PDF statistics: 1191 PDF objects out of 1200 (max. 8388607)
+ 794 compressed objects within 8 object streams
+ 113 named destinations out of 1000 (max. 131072)
  21 words of extra memory for PDF output out of 10000 (max. 100000000)
 

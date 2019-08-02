@@ -15,8 +15,8 @@
    inkscape:version="0.92.4 5da689c313, 2019-01-14"
    version="1.1"
    id="svg2"
-   height="125.0638"
-   width="268.45856"
+   height="129.0638"
+   width="266.75995"
    inkscape:export-filename="/home/michael/public_html/tweezer_icon.png"
    inkscape:export-xdpi="400"
    inkscape:export-ydpi="400">
@@ -28,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4.0735424"
-     inkscape:cx="153.40566"
-     inkscape:cy="39.779827"
+     inkscape:cx="147.2685"
+     inkscape:cy="43.779827"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -5826,7 +5826,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -5836,7 +5836,7 @@
      id="layer1"
      transform="translate(67.641494,-780.40502)">
     <g
-       transform="matrix(0.95409881,0,0,0.95409881,47.138444,40.451111)"
+       transform="matrix(0.95409881,0,0,0.95409881,51.138444,40.451111)"
        id="g29738">
       <path
          inkscape:connector-curvature="0"
@@ -5898,15 +5898,15 @@
        height="56.389431"
        width="100.24787"
        clip-path="url(#clipPath8262)"
-       transform="translate(13.891678)" />
+       transform="translate(17.891678)" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:3.77952766;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutS)"
-       d="m 38.16941,812.96736 c 14.729196,0 14.729196,0 14.729196,0"
+       d="m 40.16941,812.96736 c 14.729196,0 14.729196,0 14.729196,0"
        id="path8266"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:3.77952766;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutS-3)"
-       d="m 107.52102,813.45833 c 14.7292,0 14.7292,0 14.7292,0"
+       d="m 111.52102,813.45833 c 14.7292,0 14.7292,0 14.7292,0"
        id="path8266-4"
        inkscape:connector-curvature="0" />
     <text
@@ -5933,67 +5933,72 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.40545559px;line-height:110.00000238%;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.13344699px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="75.121117"
+       x="81.121117"
        y="861.82013"
        id="text8555-1"><tspan
          sodipodi:role="line"
-         x="75.121117"
+         x="81.121117"
          y="861.82013"
          style="font-weight:bold;line-height:110.00000238%;fill:#0000ff;stroke-width:0.13344699px"
-         id="tspan1984">Brownian motion of</tspan><tspan
+         id="tspan1984">classical stochastic systems,</tspan><tspan
          sodipodi:role="line"
-         x="75.121117"
+         x="81.121117"
          y="868.86615"
+         style="font-weight:bold;line-height:110.00000238%;fill:#0000ff;stroke-width:0.13344699px"
+         id="tspan22257">i.e. Brownian motion of</tspan><tspan
+         sodipodi:role="line"
+         x="81.121117"
+         y="875.91211"
          style="font-weight:bold;line-height:110.00000238%;fill:#0000ff;stroke-width:0.13344699px"
          id="tspan1988">bead in optical trap:</tspan><tspan
          sodipodi:role="line"
-         x="75.121117"
-         y="875.91211"
+         x="81.121117"
+         y="882.95813"
          style="line-height:110.00000238%;fill:#0000ff;stroke-width:0.13344699px"
          id="tspan1990">maintaining instantaneous</tspan><tspan
          sodipodi:role="line"
-         x="75.121117"
-         y="882.95813"
+         x="81.121117"
+         y="890.00415"
          style="line-height:110.00000238%;fill:#0000ff;stroke-width:0.13344699px"
          id="tspan2004">equilibrium as trap changes</tspan><tspan
          sodipodi:role="line"
-         x="75.121117"
-         y="890.00415"
+         x="81.121117"
+         y="897.05011"
          style="line-height:110.00000238%;fill:#0000ff;stroke-width:0.13344699px"
          id="tspan8584" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.40545559px;line-height:110.00000238%;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.13344699px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="163.84048"
+       x="167.84048"
        y="849.82013"
        id="text8555-1-0"><tspan
          sodipodi:role="line"
-         x="163.84048"
+         x="167.84048"
          y="855.16229"
          style="line-height:110.00000238%;fill:#800080;stroke-width:0.13344699px"
          id="tspan8586-9" /><tspan
          sodipodi:role="line"
-         x="163.84048"
+         x="167.84048"
          y="862.20825"
          style="font-weight:bold;line-height:110.00000238%;fill:#800080;stroke-width:0.13344699px"
-         id="tspan8590-5">Possible biological</tspan><tspan
+         id="tspan8590-5">biological</tspan><tspan
          sodipodi:role="line"
-         x="163.84048"
+         x="167.84048"
          y="869.25427"
          style="font-weight:bold;line-height:110.00000238%;fill:#800080;stroke-width:0.13344699px"
          id="tspan1100">applications:</tspan><tspan
          sodipodi:role="line"
-         x="163.84048"
+         x="167.84048"
          y="876.30029"
          style="line-height:110.00000238%;fill:#800080;stroke-width:0.13344699px"
          id="tspan8584-6">population genetics</tspan><tspan
          sodipodi:role="line"
-         x="163.84048"
+         x="167.84048"
          y="883.34631"
          style="line-height:110.00000238%;fill:#800080;stroke-width:0.13344699px"
-         id="tspan1111">molecular chaperones</tspan><tspan
+         id="tspan22277">molecular chaperones</tspan><tspan
          sodipodi:role="line"
-         x="163.84048"
+         x="167.84048"
          y="890.39227"
          style="line-height:110.00000238%;fill:#800080;stroke-width:0.13344699px"
          id="tspan1113">force spectroscopy</tspan></text>
@@ -6001,34 +6006,34 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.5732975px;line-height:110.00000238%;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.11611037px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="-23.204374"
-       y="898.10321"
+       y="902.10321"
        id="text8555-3"><tspan
          sodipodi:role="line"
          x="-23.204372"
-         y="898.10321"
+         y="902.10321"
          style="line-height:110.00000238%;fill:#ff0000;stroke-width:0.11611037px"
          id="tspan8561-5">Demirplak, Rice, JPCA (2003)</tspan><tspan
          sodipodi:role="line"
          x="-23.204374"
-         y="904.23383"
+         y="908.23383"
          style="line-height:110.00000238%;fill:#ff0000;stroke-width:0.11611037px"
          id="tspan2039">Berry, J. Phys. A (2009)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.5732975px;line-height:110.00000238%;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.11611037px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="76.919411"
-       y="898.07312"
+       x="82.919411"
+       y="902.07312"
        id="text8555-3-3"><tspan
          sodipodi:role="line"
-         x="76.919411"
-         y="898.07312"
+         x="82.919411"
+         y="902.07312"
          style="line-height:110.00000238%;fill:#0000ff;stroke-width:0.11611037px"
          id="tspan8561-5-5">Martinez <tspan
    style="font-style:italic;fill:#0000ff"
    id="tspan2062">et al </tspan>Nature Physics (2016)</tspan><tspan
          sodipodi:role="line"
-         x="76.919411"
-         y="904.20374"
+         x="82.919411"
+         y="908.20374"
          style="line-height:110.00000238%;fill:#0000ff;stroke-width:0.11611037px"
          id="tspan2039-6">Patra, Jarzynski, New. J. Phys. (2017)</tspan></text>
   </g>
