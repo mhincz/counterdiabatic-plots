@@ -427,6 +427,95 @@ r_m & 0 & k_u & -k_m - {\color{blue} r_u(\tilde{C}_t)}
     \end{figure}
 \end{frame}
 
+\begin{frame}{Extension:  from discrete states to the continuum}
+
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{oned.pdf}
+  \end{figure}
+
+  \begin{center}
+  Markov dynamics on chain of states\\
+  $\Rightarrow$ continuum  Fokker-Planck description
+\end{center}
+
+  \pause
+  \begin{itemize}
+
+  \item We can recover Fokker-Planck counterdiabatic solution of {\color{green!50!black} Patra \& Jarzynski, New J. Phys. (2017)}.\\[1em]
+
+    \pause
+    
+    \item Generalize solution to problems with position-dependent
+      diffusivity (i.e. population genetics, force spectroscopy)
+
+   \end{itemize}
+\end{frame}
+
+\begin{frame}{AFM force spectroscopy to study biomolecular complexes}
+
+  \vspace{1em}
+  \begin{figure}
+    \centering
+    \includegraphics<1>[width=0.95\textwidth]{afm_setup1.pdf}\includegraphics<2>[width=0.95\textwidth]{afm_setup2.pdf}\includegraphics<3>[width=0.95\textwidth]{afm_setup3.pdf}\includegraphics<4>[width=0.95\textwidth]{afm_setup4.pdf}
+  \end{figure}
+
+\end{frame}
+
+\begin{frame}{Counterdiabatic driving to correct nonadiabatic artifacts}
+
+  \begin{columns}[T]
+    \column{0.38\textwidth}
+    \includegraphics<1>[width=\textwidth]{pulling_results0.pdf}\includegraphics<2>[width=\textwidth]{pulling_results.pdf}
+    \column{0.6\textwidth}
+
+    \vspace{1em}
+    
+    Fast pulling leads to rupture distributions
+    far from those predicted by adiabatic theories.\\[1em]
+
+    Parameter extraction for bond lifetime vs. force:
+    \[
+    \tau(F) = \tau_0 \,\text{exp}(-d F)
+    \]
+
+    \vspace{1em}
+    
+    \begin{tabular}{l|ll}
+      & $\tau_0$ [s] & $d$ [nm]\\\hline
+      {\color{red} measured:} & 0.84 & 0.52\\
+      {\color{magenta!50!black} expected:} & 10 & 0.40\\
+      \pause
+      {\color{blue} with CD:} & 9.74 & 0.40\\
+    \end{tabular}
+
+    \vspace{1em}
+      {\color{blue}  CD protocol just depends on measurable properties of the AFM cantilever and handles, independent of the complex.}
+
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Future work}
+
+  Testing these ideas out experimentally:\\[1em]
+
+  \begin{itemize}
+
+    \item Generalizing to more realistic models, and checking for
+      biological realizations of CD protocols in heat shock
+      experimental data.\\[1em]
+
+      \pause
+      
+    \item Analogous methods should work for any enzymatic reaction
+      cycle: a ``straightforward'' proof-of-principle experiment?\\[1em]
+
+      \pause
+
+    \item Validating the AFM pulling CD protocol.
+
+  \end{itemize}
+\end{frame}
 
 \begin{frame}{Counterdiabatic protocols for Markov models}
 
